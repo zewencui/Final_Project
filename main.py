@@ -367,7 +367,7 @@ def get_filtered_rows_by_rating_count1(rows):
     If there are products that meet the requirement, 
     it returns a filtered list of rows containing only those products.
     """
-    print("The typical rating count range is 0 ~ 1000")
+    print("The rating count range is 0 ~ 1000")
     try:
         least_count = int(input('What is the minimum count you are willing to consider?'))
     except:
